@@ -3,7 +3,8 @@
     <div class="fixed lg:static lg:w-24 bottom-0 w-full lg:h-full z-10">
       <div class="w-full lg:w-24 h-full bg-blue-800 relative">
         <a href="#"
-          class="hidden absolute top-10 left-1/2 transform -translate-x-1/2 lg:block w-14 h-14 bg-yellow-300 rounded-xl">
+          class="hidden absolute top-10 left-1/2 transform -translate-x-1/2 lg:block w-14 h-14 bg-white rounded-xl">
+          <img src="./assets/logo.jpg" class="rounded-xl" alt="">
         </a>
         <SidebarNav />
       </div>

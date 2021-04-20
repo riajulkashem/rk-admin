@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .sidebar-menu-item {
-    @apply lg:w-14 lg:h-14 rounded-xl mx-3 flex justify-center items-center text-white opacity-50 group-hover:bg-white group-hover:text-red-500 transform lg:group-hover:translate-x-8 lg:group-hover:-translate-y-0 duration-300 group-hover:opacity-100 group-hover:shadow-xl w-10 h-10 group-hover:-translate-y-8;
+    @apply lg:w-14 lg:h-14 rounded-xl mx-3 flex justify-center items-center text-white opacity-50 group-hover:bg-white group-hover:text-blue-500 transform lg:group-hover:translate-x-8 lg:group-hover:-translate-y-0 duration-300 group-hover:opacity-100 group-hover:shadow-xl w-10 h-10 group-hover:-translate-y-8;
+}
+
+.sidebar-menu-item-active {
+    @apply lg:w-14 lg:h-14 rounded-xl mx-3 flex justify-center items-center  bg-white text-red-500 transform lg:translate-x-8 lg:-translate-y-0 duration-300 opacity-100 shadow-xl w-10 h-10 -translate-y-8;
 }
