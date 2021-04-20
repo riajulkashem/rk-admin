@@ -3,15 +3,9 @@
     <div class="fixed lg:static lg:w-24 bottom-0 w-full lg:h-full z-10">
       <div class="w-full lg:w-24 h-full bg-blue-800 relative">
         <a href="#"
-           class="hidden absolute top-10 left-1/2 transform -translate-x-1/2 lg:block w-14 h-14 bg-yellow-300 rounded-xl">
+          class="hidden absolute top-10 left-1/2 transform -translate-x-1/2 lg:block w-14 h-14 bg-yellow-300 rounded-xl">
         </a>
-        <div class="lg:space-x-0 flex lg:flex-col items-center \
-        justify-center h-full lg:space-y-4 py-4">
-          <a href="#" class="block w-14 h-14 bg-white rounded-xl mx-3"></a>
-          <a href="#" class="block w-14 h-14 bg-white rounded-xl mx-3"></a>
-          <a href="#" class="block w-14 h-14 bg-white rounded-xl mx-3"></a>
-          <a href="#" class="block w-14 h-14 bg-white rounded-xl mx-3"></a>
-        </div>
+        <SidebarNav />
       </div>
     </div>
     <div class="w-full lg:p-10 p-4">
@@ -43,8 +37,10 @@
 </template>
 
 <script type='text/javascript'>
+import SidebarNav from './components/SidebarNav'
+
 export default {
-  components: {},
+  components: { SidebarNav },
   data () {
     return {
       showSideBar: false
