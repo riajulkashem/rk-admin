@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sidebar-menu-item {
+    @apply lg:w-14 lg:h-14 rounded-xl mx-3 flex justify-center items-center text-white opacity-50 group-hover:bg-white group-hover:text-red-500 transform lg:group-hover:translate-x-8 lg:group-hover:-translate-y-0 duration-300 group-hover:opacity-100 group-hover:shadow-xl w-10 h-10 group-hover:-translate-y-8;
+}
