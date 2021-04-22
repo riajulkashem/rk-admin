@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="w-full lg:p-10 p-4">
-      <div class="bg-gray-300 rounded-xl h-14">search</div>
+      <TopNav />
       <div class="bg-gray-300 rounded-xl lg:hidden mt-4 p-2">
         <button class="block w-32 h-10 bg-blue-600 mx-auto" @click="showSideBar = !showSideBar">Toggle Side Bar</button>
       </div>
@@ -39,9 +39,10 @@
 
 <script type='text/javascript'>
 import SidebarNav from './components/SidebarNav'
+import TopNav from './components/TopNav'
 
 export default {
-  components: { SidebarNav },
+  components: { TopNav, SidebarNav },
   data () {
     return {
       showSideBar: false
