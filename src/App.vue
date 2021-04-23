@@ -17,7 +17,7 @@
       <div class="overflow-hidden">
         <div class="transform lg:transform-none transition-all duration-300" :class="showSideBar ? '-translate-x-full': ''">
           <div class="flex lg:mt-10 mt-4 space-x-0 lg:space-x-10">
-            <div class="w-full flex-shrink-0 lg:w-3/4 lg:flex-shrink rounded-xl">
+            <div class="w-full flex-shrink-0 lg:w-3/4 lg:flex-shrink rounded-xl mb-60 lg:mb-0">
               <div class="flex space-x-4 lg:space-x-10">
                 <div class="widget-card">
                   <div class="widget-card-icon">
@@ -55,10 +55,8 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-gray-300 rounded-xl h-28 mt-4 lg:mt-10 w-full"></div>
               <div class="flex  space-x-10 mt-4 lg:mt-10">
-                <div class="bg-gray-300 rounded-xl h-28 w-full"></div>
-                <div class="bg-gray-300 rounded-xl h-28 w-full"></div>
+                <Blog />
               </div>
             </div>
             <div class="w-full lg:w-1/4 flex-shrink-0 lg:flex-shrink bg-gray-300 rounded-xl h-52">Sidebar</div>
@@ -72,9 +70,10 @@
 <script type='text/javascript'>
 import SidebarNav from './components/SidebarNav'
 import TopNav from './components/TopNav'
+import Blog from './components/Blog'
 
 export default {
-  components: { TopNav, SidebarNav },
+  components: { TopNav, SidebarNav, Blog },
   data () {
     return {
       showSideBar: false
