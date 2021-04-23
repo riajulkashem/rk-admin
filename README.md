@@ -1,5 +1,5 @@
 # rk-admin
-RK admin template made with Vuejs 3 and Tailwind CSS 2 feel free to contribute this project. If you like this project **Don't forget to give a star 🌟!!**
+RK admin template made with Vue 3 and Tailwind CSS 2. This project is in development so feel free to contribute this project. If you like this project **Don't forget to give a star 🌟!!**
 
 ![RK ADMIN](./screenshots/rk_admin.png)
 
