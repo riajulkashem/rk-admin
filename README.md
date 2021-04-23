@@ -1,4 +1,6 @@
 # rk-admin
+RK admin template made with Vuejs 3 and Tailwind CSS 2 feel free to contribute this project. If you like this project **Don't forget to givee a star 🌟!!**
+
 ![RK ADMIN](./screenshots/rk_admin.png)
 
 ## Project setup
@@ -28,3 +30,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Conclusion
+Thanks for reading this. At last **Don't forget to givee a star 🌟!!**
