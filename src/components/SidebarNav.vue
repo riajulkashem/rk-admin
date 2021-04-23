@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:space-x-0 flex lg:flex-col items-center justify-center lg:h-full lg:space-y-4 lg:py-4 py-2">
+  <div class="lg:space-x-0 flex lg:flex-col items-center justify-center lg:space-y-4 lg:py-4 py-2" style="height: 100vh">
     <a href="#" class="group">
       <div class="sidebar-menu-item-active">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
