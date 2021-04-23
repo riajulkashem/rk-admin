@@ -19,9 +19,41 @@
           <div class="flex lg:mt-10 mt-4 space-x-0 lg:space-x-10">
             <div class="w-full flex-shrink-0 lg:w-3/4 lg:flex-shrink rounded-xl">
               <div class="flex space-x-4 lg:space-x-10">
-                <div class="bg-gray-300 rounded-xl h-28 w-full"></div>
-                <div class="bg-gray-300 rounded-xl h-28 w-full"></div>
-                <div class="bg-gray-300 rounded-xl h-28 w-full"></div>
+                <div class="widget-card">
+                  <div class="widget-card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
+                    </svg>
+                  </div>
+                  <div class="w-1/3 bg-white">
+                    <div class="widget-card-title">Visitors</div>
+                    <div class="widget-card-value">3,255</div>
+                  </div>
+                </div>
+
+                <div class="widget-card">
+                  <div class="widget-card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
+                    </svg>
+                  </div>
+                  <div class="w-1/3 bg-white">
+                    <div class="widget-card-title">Visitors</div>
+                    <div class="widget-card-value">3,255</div>
+                  </div>
+                </div>
+
+                <div class="widget-card-active">
+                  <div class="widget-card-icon-active">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
+                    </svg>
+                  </div>
+                  <div class="w-1/3 bg-red-500">
+                    <div class="widget-card-title widget-card-text-color">Visitors</div>
+                    <div class="widget-card-value widget-card-text-color">3,255</div>
+                  </div>
+                </div>
               </div>
               <div class="bg-gray-300 rounded-xl h-28 mt-4 lg:mt-10 w-full"></div>
               <div class="flex  space-x-10 mt-4 lg:mt-10">

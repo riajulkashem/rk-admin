@@ -16,7 +16,7 @@
           <a href="#" class="hover:text-blue-800">Contracts</a>
           <a href="#" class="hover:text-blue-800">Help</a>
         </div>
-        <div class="flex items-center space-x-">
+        <div class="flex items-center space-x-4">
           <a href="#" class="flex items-center justify-center w-10 h-10 text-gray-600 hover:text-blue-800 relative">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
               <path
